@@ -37,6 +37,7 @@ img {
 .news_title {
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(41, 41, 41);
+  font-size: 30px;
 }
 
 .head_text {
@@ -51,6 +52,7 @@ img {
   line-height: 25px;
   font-size: 14px;
   padding-bottom: 10px;
+  font-style: italic;
 }
 
 button {
