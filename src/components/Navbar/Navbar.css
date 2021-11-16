@@ -1,0 +1,42 @@
+.NavbarItems {
+    background: rgb(151, 151, 238);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.page-name {
+    color: rgb(250, 248, 248);
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+

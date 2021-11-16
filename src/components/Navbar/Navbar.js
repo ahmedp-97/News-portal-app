@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
+import "./Navbar.css"
+
 class Navbar extends Component {
+    
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">News Portal App</h1>
+        <h1 className="page-name">News Portal App</h1>
         <div className="menu-icon"></div>
-        <ul>
+        <ul className="nav-menu">
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
@@ -21,3 +24,4 @@ class Navbar extends Component {
     );
   }
 }
+export default Navbar;
