@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: fit-content;
   margin: 0 auto;
-  background: rgb(214, 214, 214); 
+  background: rgb(214, 214, 214);
 }
 
 .all_news {
@@ -66,3 +66,26 @@ button:hover {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+.navbarItems{
+  background: rgb(151, 151, 238);
+    height: 90px;
+    font-size: 1.2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+.pageName {
+  color: rgb(250, 248, 248);
+  font-style: italic;
+  text-decoration: underline;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.navMenu{
+  color: #d1a324;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  
+}
